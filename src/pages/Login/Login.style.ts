@@ -15,6 +15,18 @@ export const LeftContent = styled.section`
     height: 100%;
     flex-direction: column;
     padding: 1.9375rem 8.125rem 7.18rem 8rem;
+
+    @media (max-width: 1250px) {
+        padding: 0;
+    }
+
+    @media (max-width: 800px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 `;
 
 export const RightContent = styled.section`
@@ -22,10 +34,19 @@ export const RightContent = styled.section`
     width: 50%;
     height: 100%;
     padding: 1.3125rem 1.375rem 1.25rem 0;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
 `;
 
 export const LeftHeader = styled.header`
     display: flex;
+
+    @media (max-width: 800px) {
+        position: absolute;
+        top: 5rem;
+    }
 `;
 
 export const Text = styled.p``;
@@ -33,6 +54,10 @@ export const Text = styled.p``;
 export const LeftBody = styled.div`
     margin-top: 5.5625rem;
     margin-left: 5rem;
+
+    @media (max-width: 800px) {
+        margin: 0 0;
+    }
 `;
 
 export const GeneralContent = styled.article`

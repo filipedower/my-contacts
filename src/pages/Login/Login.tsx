@@ -50,7 +50,7 @@ const Login = (): JSX.Element => {
                         <S.Text style={{
                             lineHeight: 1.6
                         }}>
-                            Você pode <a href="#">Registre aqui!</a>
+                            Você pode <a href="#">Registrar aqui!</a>
                         </S.Text>
                     </S.GeneralContent>
                     <S.FormContent>
